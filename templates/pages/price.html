@@ -1,10 +1,13 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="container">
+<div class="container py-4">
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="container-fluid py-5">
-        <p class="col-md-8 fs-4"> PRICE </p>
+        <h1 class="display-5 fw-bold">Prix des crypto-monnaies</h1>
+        <p class="fs-4">Ces données peuvent être utilisées par les investisseurs et les traders pour prendre des
+            décisions éclairées concernant leurs portefeuilles de crypto-monnaies. Elles sont également utiles pour
+            suivre les tendances du marché et pour identifier les opportunités potentielles d'achat ou de vente.</p>
       </div>
     </div>
 </div>
@@ -34,6 +37,47 @@
                 {% endfor %}
                 </tbody>
             </table>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="col-12">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Crypto-monnaie (Name)</div>
+      Cette information est cruciale car elle identifie chaque monnaie numérique et permet aux utilisateurs de
+        reconnaître et de distinguer différentes crypto-monnaies.
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Prix Actuel</div>
+      Chaque crypto-monnaie listée a un prix actuel en euros (€). Ce prix est une donnée cruciale car elle représente
+        la valeur actuelle de la monnaie sur le marché.
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Haut et Bas Journaliers</div>
+        Les colonnes "Daily High" et "Daily Low" montrent les prix les plus élevés et les plus
+          bas atteints par chaque crypto-monnaie au cours des dernières 24 heures. Ces valeurs donnent une idée
+          de la volatilité du marché sur une période d'une journée. Une grande différence entre ces valeurs
+          indique une volatilité élevée.
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Capitalisation Boursière</div>
+      La colonne "Market Cap" (Capitalisation Boursière) représente la valeur totale de toutes les pièces ou tokens en
+        circulation pour chaque crypto-monnaie. Elle est calculée en multipliant le nombre total de pièces par le
+        prix actuel de chaque pièce. Une capitalisation boursière élevée indique une crypto-monnaie plus largement
+        adoptée et potentiellement plus stable.
+    </div>
+  </li>
+</ol>
         </div>
     </div>
 </div>
