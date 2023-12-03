@@ -10,3 +10,11 @@ Le backend est développé avec Django, un framework web Python. Il gère les re
 CryptoCompare pour récupérer les articles, et envoie les données au frontend.
 
 ## Intégration de l'API
+Utilisation de l'API de CryptoCompare pour obtenir les dernièrs articles sur les crypto-monnaies.
+Possibilité d'inclure des fonctionnalités telles que le filtrage par catégorie de nouvelles, la recherche par mot-clé, ou 
+le tri par date.
+
+## Déploiement
+Le projet est déployé sur un serveur web, avec une attention particulière à la sécurité, à la performance, et à la 
+scalabilité. Il nécessite une maintenance régulière pour s'assurer que l'intégration avec l'API de CryptoCompare 
+fonctionne correctement et que le site reste à jour avec les dernières pratiques de développement web.
